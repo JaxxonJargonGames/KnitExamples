@@ -4,6 +4,7 @@ local Component = require(Knit.Util.Component)
 Knit.AddServices(script.Parent.Services)
 
 Component.Auto(script.Parent.Components)
+-- Loader.LoadChildren(script.Parent.Components)
 
 Knit.Start():andThen(function()
 	warn("Server Started")
